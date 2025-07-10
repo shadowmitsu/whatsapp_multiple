@@ -15,17 +15,6 @@
            </div>
            <!--navigation-->
            <ul class="metismenu" id="menu">
-		    @if(env("ENABLE_INDEX") == 'yes')
-               <li>
-                   <a href="{{ route('index') }}">
-                       <div class="parent-icon"><i class="bi bi-house-fill"></i>
-                       </div>
-                       <div class="menu-title">{{__('Home')}}</div>
-                   </a>
-
-               </li>
-			@endif
-               {{-- dashboard --}}
                <li class="{{ request()->is('home') ? 'active' : '' }}">
                    <a href="{{ route('home') }}">
                        <div class="parent-icon"><i class="bi bi-ui-radios-grid"></i>
