@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ $title }} | {{ config('config.site_name') }}</title>
-    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}" type="image/png" />
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/027/510/023/small_2x/cat-adventures-journeys-with-a-curious-explorer-ai-generative-png.png" type="image/png" />
     <!--plugins-->
     <link href="{{ asset('assets/plugins/vectormap/jquery-jvectormap-2.0.2.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
